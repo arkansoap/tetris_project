@@ -1,0 +1,15 @@
+# ToDo
+
+- [x] Add a README
+- [ ] Détection Fin de Jeu
+- [ ] Système de niveaux
+
+# Create an executable
+
+- go in your project directory
+  `cd project/tetris_project`
+- activate virtual environment
+  `source venv/bin/activate`
+- execute the following command (exec file will be in dist folder)
+  `pyinstaller --onefile --windowed tetris.py`
+- zip the file to upload it on github or your server
